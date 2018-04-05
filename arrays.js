@@ -16,6 +16,5 @@ function destructivelyAddElementToEndOfArray(arr,element) {
   return arr
 }
 function accessElementInArray(arr, index) {
-  var ind = arr[index]
-  console.log(ind)
+  arr[index]
 }
